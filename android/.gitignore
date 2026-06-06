@@ -1,0 +1,30 @@
+
+# Firebase Secret Files
+/android/app/google-services.json
+/ios/Runner/GoogleService-Info.plist
+/lib/firebase_options.dart
+firebase.json
+
+# Android Signing Keys
+key.properties
+**/*.keystore
+**/*.jks
+
+# Hidden Mac/Windows system files
+.DS_Store
+Thumbs.db
+
+gradle-wrapper.jar
+/.gradle
+/captures/
+/gradlew
+/gradlew.bat
+/local.properties
+GeneratedPluginRegistrant.java
+.cxx/
+
+# Remember to never publicly share your keystore.
+# See https://flutter.dev/to/reference-keystore
+key.properties
+**/*.keystore
+**/*.jks
